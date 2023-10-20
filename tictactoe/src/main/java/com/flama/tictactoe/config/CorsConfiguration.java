@@ -11,5 +11,8 @@ public class CorsConfiguration implements WebMvcConfigurer {
         registry.addMapping("/**")
                 .allowedOrigins("http://localhost:3000")
                 .allowedMethods("GET", "POST");
+        registry.addMapping("/**")
+                .allowedOrigins("https://tic-tac-toe-next-sigma.vercel.app")
+                .allowedMethods("GET", "POST");
     }
 }
