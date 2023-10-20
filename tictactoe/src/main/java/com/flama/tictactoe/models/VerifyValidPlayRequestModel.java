@@ -1,6 +1,6 @@
 package com.flama.tictactoe.models;
 
-public class VerifyValidPlayRequestModel extends BoardRequestModel {
+public class VerifyValidPlayRequestModel extends BoardModel {
     private int row;
     private int column;
 

@@ -1,6 +1,6 @@
 package com.flama.tictactoe.models;
 
-public class ErrorResponseModel {
+public class ErrorModel {
     private String error;
 
     public String getError() {

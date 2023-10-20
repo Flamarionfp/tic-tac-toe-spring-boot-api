@@ -1,6 +1,6 @@
 package com.flama.tictactoe.models;
 
-public class VerifyValidPlayResponseModel extends ErrorResponseModel {
+public class VerifyValidPlayResponseModel extends ErrorModel {
     private boolean isValidPlay;
 
     public boolean getIsValidPlay() {

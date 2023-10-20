@@ -1,6 +1,6 @@
 package com.flama.tictactoe.models;
 
-public class NextPlayResponseModel extends ErrorResponseModel {
+public class NextPlayModel extends ErrorModel {
     private int[] aiNextPlay = new int[]{};
 
     public int[] getAiNextPlay() {

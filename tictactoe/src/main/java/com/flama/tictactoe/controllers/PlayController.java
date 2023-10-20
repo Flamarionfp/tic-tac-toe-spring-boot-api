@@ -1,7 +1,6 @@
 package com.flama.tictactoe.controllers;
 
 import com.flama.tictactoe.entities.Board;
-import com.flama.tictactoe.models.NextPlayResponseModel;
 import com.flama.tictactoe.models.VerifyValidPlayRequestModel;
 import com.flama.tictactoe.models.VerifyValidPlayResponseModel;
 import org.springframework.http.ResponseEntity;

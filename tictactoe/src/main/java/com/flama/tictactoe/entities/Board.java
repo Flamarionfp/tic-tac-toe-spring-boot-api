@@ -5,13 +5,8 @@ import java.util.Arrays;
 public class Board {
     public static final int DIMENSIONS = 3;
     Character[][] positions;
-
     public Board(Character[][] positions) {
         this.positions = positions;
-    }
-
-    private Character getFormattedPosition(int row, int column) {
-        return positions[row][column] != null ? positions[row][column] : ' ';
     }
 
     public boolean isFilledPosition(int row, int column) {
@@ -69,17 +64,6 @@ public class Board {
 
         return false;
     }
-
-    public void insertSymbol(Character symbol, int row, int column) throws Exception {
-        if (row >= DIMENSIONS || column >= DIMENSIONS) {
-            throw new Exception("Jogada inválida");
-        }
-
-        if (isFilledPosition(row, column)) throw new Exception("Posição já utilizada");
-
-        positions[row][column] = symbol;
-    }
-
     public String toString() {
         return Arrays.deepToString(positions);
     }

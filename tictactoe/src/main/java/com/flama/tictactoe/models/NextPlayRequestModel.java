@@ -1,6 +1,6 @@
 package com.flama.tictactoe.models;
 
-public class NextPlayRequestModel extends BoardRequestModel {
+public class NextPlayRequestModel extends BoardModel {
     private Character iaSymbol;
 
     public Character getIaSymbol() {
