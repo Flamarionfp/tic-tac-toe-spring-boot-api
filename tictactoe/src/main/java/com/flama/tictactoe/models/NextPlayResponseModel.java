@@ -1,8 +1,7 @@
 package com.flama.tictactoe.models;
 
-public class NextPlayResponseModel {
+public class NextPlayResponseModel extends ErrorResponseModel {
     private int[] aiNextPlay = new int[]{};
-    private String error;
 
     public int[] getAiNextPlay() {
         return aiNextPlay;
@@ -12,11 +11,4 @@ public class NextPlayResponseModel {
         this.aiNextPlay = aiNextPlay;
     }
 
-    public String getError() {
-        return error;
-    }
-
-    public void setError(String error) {
-        this.error = error;
-    }
 }
